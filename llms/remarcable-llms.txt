@@ -1,0 +1,95 @@
+---
+version: 2.0
+format: llms.txt-max 
+created: 2025-11-07
+updated: 2025-11-07
+license: CC-BY-4.0
+canonical: https://remarcable.com/llms.txt
+
+# Site Metadata
+author: Remarcable
+domain: remarcable.com
+description: "Structured index of Remarcable's content for LLM ingestion and retrieval."
+
+# Content Metadata
+taxonomy_version: 1
+pages_included: 20
+total_tokens: 19113
+avg_tokens_per_page: 956
+
+# AI/LLM Hints
+audience: ["owners", "project managers", "purchasing managers"]
+embedding_model: text-embedding-3-large
+chunking_strategy: semantic-heading
+retrieval_priority: high
+update_frequency: quarterly
+
+# Integrity
+has_signatures: true
+has_embeddings: true
+has_chunks: true
+hash_algorithm: sha256
+
+# Provenance
+generator: knowbots
+generator_version: 1.0.0
+---
+
+# Remarcable
+
+> AI-powered procurement and material management platform for electrical contractors and construction trades. Streamlines purchasing, inventory tracking, and tool management through intelligent automation and ERP integration.
+
+## Material Management
+
+> Material tracking, inventory control, and warehouse management systems for construction contractors
+
+- [What's Behind the Latest Supply Chain Shakeups—and How Can Contractors Stay Ahead?](https://www.remarcable.com/blog/supply-chain-shakeups) - Analysis of current supply chain disruptions and strategic recommendations for contractors to maintain material availability
+- [Electri Research: Outside of the Gate Materials Management Model for Electrical Contractors](https://www.remarcable.com/blog/electrimmgmt) - Industry research findings on materials management models specifically designed for electrical contracting operations
+- [Building Better with Less: How Guarantee Electric Mastered Material Management](https://www.remarcable.com/blog/building-better-with-less-how-guarantee-electric-mastered-material-management) - Case study demonstrating material waste reduction and efficiency improvements at Guarantee Electric
+
+## Procurement Automation
+
+> Automated purchasing, ordering, and supplier management systems with AI-powered optimization
+
+- [Collins Electrical Cuts Material Management Time from Hours to Minutes with Remarcable](https://www.remarcable.com/blog/collins-electrical-cuts-material-management-time-from-hours-to-minutes-with-remarcable) - Detailed case study showing dramatic time savings in procurement processes through automation implementation
+- [How Supplier Partnerships Drive Contractor Success: The Copper State & Remarcable Story](https://www.remarcable.com/blog/how-supplier-partnerships-drive-contractor-success-the-copper-state-remarcable-story) - Case study exploring strategic supplier relationship management and integration benefits
+- [Remarcable Wins EC&M Product of the Year 2025 for AI-Driven Procurement Innovation](https://www.remarcable.com/blog/ecm2025-poty) - Industry recognition announcement highlighting AI-powered procurement capabilities and innovation
+
+## ERP Integration
+
+> Enterprise resource planning system integration and connectivity solutions for accounting and business management
+
+- [Remarcable Integrations](https://www.remarcable.com/integration) - Overview of available ERP and accounting system integrations with technical specifications
+- [Batch Import. Auto Match. Eliminate Entry.](https://www.remarcable.com/solutions/accounting) - Accounting workflow automation features including batch processing and automatic data matching
+- [Quickbooks Online](https://www.remarcable.com/integration/quickbooks-online) - Specific integration details and capabilities for QuickBooks Online accounting system
+- [Sage100](https://www.remarcable.com/integration/sage100) - Integration specifications and features for Sage 100 ERP system connectivity
+- [Sage300](https://www.remarcable.com/integration/sage300) - Integration specifications and features for Sage 300 ERP system connectivity
+
+## Tool Management
+
+> Tool tracking, crib management, and equipment control systems for construction operations
+
+- [Seamless Tool Management: Paynecrest Electric's Path to Efficiency with Remarcable](https://www.remarcable.com/blog/seamless-tool-management-paynecrest-electrics-path-to-efficiency-with-remarcable) - Case study demonstrating tool tracking implementation and operational efficiency improvements
+- [Welcome to Better Tool Crib Control](https://www.remarcable.com/solutions/tool-management) - Tool crib management solution features including inventory tracking and checkout/checkin workflows
+
+## Prefabrication Management
+
+> Prefab workflow management and manufacturing process optimization for construction projects
+
+- [Powering the Future: Remarcable Showcases AI-Driven Prefab Workflows at Dallas Summit](https://www.remarcable.com/blog/powering-the-future-remarcable-showcases-ai-driven-prefab-workflows-at-dallas-summit) - Conference presentation on AI-powered prefabrication workflow automation and industry trends
+- [Industrializing Construction: How Interstates Revolutionized Prefab Management](https://www.remarcable.com/blog/industrializing-construction-how-interstates-revolutionized-prefab-management) - Case study showing prefabrication process optimization and manufacturing efficiency gains
+
+## Company
+
+> Company information, funding announcements, and corporate compliance documentation
+
+- [Remarcable Secures $15M to Power Trade Contractors](https://www.remarcable.com/blog/remarcable-secures-15m-to-power-trade-contractors) - Series A funding announcement with growth plans and investor information
+- [Soc 2 Compliance](https://www.remarcable.com/blog/soc-2-compliance) - SOC 2 Type II compliance certification details and security framework implementation
+- [Pricing](https://www.remarcable.com/pricing) - Product pricing tiers, feature comparisons, and subscription plan details
+
+## Optional
+
+> Additional case studies and marketing content including trade show participation and customer success stories
+
+- [Streamlining Operations with Remarcable: A Lighthouse Success Story](https://www.remarcable.com/blog/streamlining-operations-with-remarcable-a-lighthouse-success-story) - Customer success story highlighting operational improvements and workflow optimization results
+- [Remarcable is Heading to ABC Convention 2025 in Las Vegas](https://www.remarcable.com/blog/remarcable-is-heading-to-abc-convention-2025-in-las-vegas) - Trade show participation announcement for Associated Builders and Contractors Convention

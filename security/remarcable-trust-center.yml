@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.remarcable.com/blog/soc-2-compliance
+# No dedicated trust.remarcable.com / security.remarcable.com subdomain exists;
+# the SOC 2 program is published via the company blog + a homepage trust badge.
+url: https://www.remarcable.com/blog/soc-2-compliance
+certifications:
+- name: SOC 2 Type 1
+  status: completed
+  completed: '2024-06-17'
+  auditor: Insight Assurance
+  framework: SOC 2 Trust Service Criteria
+  evidence: https://www.remarcable.com/blog/soc-2-compliance
+- name: SOC 2 Type II
+  status: certified
+  # Advertised as a trust badge on the marketing homepage; supersedes the Type 1 audit.
+  evidence: https://www.remarcable.com/
+evidence:
+- source: https://www.remarcable.com/blog/soc-2-compliance
+  keywords: [soc 2 type 1, trust service criteria, insight assurance]
+- source: https://www.remarcable.com/
+  keywords: [soc 2 type ii certified]
+notes: >-
+  Remarcable completed a SOC 2 Type 1 audit (Insight Assurance, 2024-06-17) and
+  now advertises SOC 2 Type II certification on its homepage. No public
+  vulnerability-disclosure program, security.txt, or bug bounty was found.

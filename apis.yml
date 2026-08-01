@@ -1,8 +1,19 @@
 aid: remarcable
 name: Remarcable
-description: Remarcable is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Remarcable is an AI-powered procurement and materials-management platform built
+  for MEP (mechanical, electrical, plumbing) trade contractors, distributors, and
+  construction teams. It unifies purchasing, purchase-order and invoice processing,
+  inventory and warehouse visibility, prefabrication workflows, and tool/equipment
+  crib management into a single system, with AI-assisted smart search, document OCR,
+  field note-to-order conversion, and invoice verification. Remarcable connects to
+  accounting and ERP systems (QuickBooks Desktop and Online, Sage 50/100/300,
+  Acumatica, Viewpoint Spectrum/Vista, Foundation, Procore, and more) plus supplier
+  catalogs to automate data entry and reduce errors. The company reports 30,000+
+  active users and over $900M in monthly material purchases processed, is SOC 2
+  certified, and raised a $15M Series A led by Insight Partners. Remarcable does not
+  currently publish a public developer API or SDK program; its integration surface
+  is delivered through pre-built ERP and supplier connectors.
 url: https://raw.githubusercontent.com/api-evangelist/remarcable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +21,34 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6671029230513cc84f617773/6a472ca392034523692a6f17_site-logo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Construction
+- Procurement
+- Materials Management
+- Supply Chain
+- Electrical Contractors
+- MEP
+- Inventory
+- ERP Integration
+- Prefabrication
+- Tool Management
+- Construction Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +58,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.remarcable.com/
+- type: SignUp
+  url: https://app.remarcable.com/
+- type: Login
+  url: https://app.remarcable.com/
+- type: Pricing
+  url: https://www.remarcable.com/pricing
+- type: Support
+  url: https://www.remarcable.com/support-center
+- type: Blog
+  url: https://www.remarcable.com/blog
+- type: TermsOfService
+  url: https://www.remarcable.com/terms
+- type: PrivacyPolicy
+  url: https://www.remarcable.com/privacy
+- type: Integrations
+  url: https://www.remarcable.com/integration
+- type: LLMsTxt
+  url: llms/remarcable-llms.txt
+- type: Compliance
+  url: https://www.remarcable.com/blog/soc-2-compliance
+- type: TrustCenter
+  url: security/remarcable-trust-center.yml
+- type: DomainSecurity
+  url: security/remarcable-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
